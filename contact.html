@@ -4,24 +4,45 @@
     <meta charset="utf-8">
 <title>Contact Me</title>
 <style>
+    html{
+        background-color:rgb(185, 183, 222);
+    }
     body {
-      font-family: Arial, Helvetica, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
+        position:relative; 
+        margin:200px;    
+        background-color:rgb(231, 226, 239);
+    }
+    div {
+        position:relative;  
+        padding:100px;
     }
 </style>
 </head>
 <body>
-    <h1>My Contact Details</h1>
-    <p>Unit 123 Building A, Manila, Philippines</p>
-    <p>Tel: 123456789</p>
-    <p>kaissehr_mendoza@gmail.com</p>
-    <form action="mailto:kaissehr_mendoza@dlsu.edu.ph" method="post" enctype="text/plain">
-        <label>Your Name:</label>
-        <input type="text" name="yourName" value=""><br>
-        <label>Your Email:</label>
-        <input type="email" name="yourEmail" value=""><br>
-        <label>Your Message:</label><br>
-        <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
-        <input type="submit" name="">
-    </form>
+    <div>
+        <table>
+            <tr>
+                <td><h1>My Contact Details</h1>
+                    <p>Muntinlupa City, Manila, Philippines</p>
+                    <p>Tel: 0917 123 4567</p>
+                    <p>kaissehr_mendoza@gmail.com</p>
+                    <form action="mailto:kaissehr_mendoza@dlsu.edu.ph" method="post" enctype="text/plain">
+                        <label>Your Name:</label>
+                        <input type="text" name="yourName" value=""><br>
+                        <label>Your Email:</label>
+                        <input type="email" name="yourEmail" value=""><br>
+                        <label>Your Message:</label><br>
+                        <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+                        <input type="submit" name="">
+                    </form>
+                </td>
+                <td>
+                    <img src="images/dance.gif" alt="dlsu logo" width="300" height="300"/>
+                </td>
+            </tr>
+        </table>
+        
+    </div>
 </body>
 </html>
